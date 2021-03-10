@@ -49,8 +49,6 @@ body {
 .btn-container {
     display: flex;
     width: 100%;
-
-
 }
 
 .tab-btn {
@@ -59,13 +57,20 @@ body {
     background: rgb(71, 71, 71);
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 
 .tab-btn.active {
     background: #000;
 }
 
-.text-container {
-    margin-top: 3rem;
+.content {
+    display: none;
+
+}
+
+.content.active {
+    display: block;
+    margin-top: 1rem;
     padding: 1rem;
 }
